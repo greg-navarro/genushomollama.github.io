@@ -1,1 +1,0 @@
-# genushomollama.github.io
