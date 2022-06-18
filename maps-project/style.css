@@ -1,0 +1,54 @@
+html, body {
+  background-color: red;
+  height: 100%;
+  margin: 0;
+}
+
+.content-container {
+  background-color: aquamarine;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+/* Set the size of the div element that contains the map */
+#map {
+  height: calc(100% - 2px);
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+/* Remove loading indicator from page flow and center it */
+#loading-indicator-background {
+  position: absolute;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+#loading-indicator-wrapper {
+  background-color: azure;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  width: 25%;
+  left: calc(50% - 12.5%);
+  height: 25%;
+  top: calc(50% - 12.5%);
+  display: none;
+}
+
+#loading-indicator {
+  position: relative;
+  text-align: center;
+}
+/* 
+* {
+  outline: 1px solid red;
+} */
+
+
